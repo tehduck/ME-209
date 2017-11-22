@@ -38,4 +38,10 @@ min = Application.WorksheetFunction.min(5, 5, 5, 5, 5, 5, 5, 5, 3)
 MsgBox (min)
 '##########################################################################################
 
+'Putting some stuff into different columns using letters instead of numbers
+Cells(1,"A")=32
+Cells(1,"B")=42
+
+
+
 End Sub
