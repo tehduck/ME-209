@@ -4,6 +4,38 @@ option base 1
 Sub main()
 sheet1.Cells.ClearContents
 
-
+'Defines the data type INTEGER
+Dim i%
+'Defines the data type STRING
+Dim name$
+'Defines the data type DECIMAL
+Dim num@
+'Defines the data type DOUBLE
+Dim percent#
+'Defines the data type SINGLE
+Dim sum!
+'Defines the data type LONG
+Dim stuff&
+'##########################################################################################
+Dim n As Integer
+n = Application.WorksheetFunction.Average(3, 3, 4)
+MsgBox (n)
+'##########################################################################################
+Dim summation As Integer
+summation = Application.WorksheetFunction.sum(2, 2, 2, 2)
+MsgBox (summation)
+'##########################################################################################
+Dim standarddev As Double
+standarddev = Application.WorksheetFunction.StDev(3, 3, 3, 3, 3, 3, 3, 40)
+MsgBox (standarddev)
+'##########################################################################################
+Dim max As Integer
+max = Application.WorksheetFunction.max(3, 3, 3, 3, 3, 34, 4, 4)
+MsgBox (max)
+'##########################################################################################
+Dim min As Integer
+min = Application.WorksheetFunction.min(5, 5, 5, 5, 5, 5, 5, 5, 3)
+MsgBox (min)
+'##########################################################################################
 
 End Sub
