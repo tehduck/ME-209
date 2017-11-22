@@ -1,0 +1,9 @@
+option explicit
+option base 1
+
+Sub main()
+sheet1.Cells.ClearContents
+
+
+
+End Sub
